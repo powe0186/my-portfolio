@@ -5,6 +5,7 @@ import mainImage from '../images/background.jpg';
 import AboutMe from '../routes/aboutMe';
 import Projects from '../routes/myProjects';
 import Resume from '../routes/myResume';
+import ContactInfo from '../routes/contactInfo';
 import {
   BrowserRouter,
   Routes,
@@ -31,6 +32,7 @@ const Main = () => {
             <Route path="/aboutMe" element={<AboutMe />} />
             <Route path="/projects" element={<Projects />}/>
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contactInfo" element={<ContactInfo />} />
           
 
         </Routes>
