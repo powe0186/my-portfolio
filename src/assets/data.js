@@ -2,7 +2,8 @@ import bookwormPic from '../images/Bookworm.PNG';
 import pennyPic from '../images/penny.PNG';
 import bgPic from '../images/catan.jpg';
 import weatherPic from '../images/Weather.png';
-import bootcampForumPic from '../images/BootcapForum.png'
+import bootcampForumPic from '../images/BootcapForum.png';
+import portfolioPic from '../images/portfolio.PNG';
 
 const projectData = [
     {
@@ -47,6 +48,14 @@ const projectData = [
         tech: ['express', 'handlebars', 'mysql2', 'nodemailer'],
         github: 'https://github.com/midth002/bootcamp-forum',
         live: 'https://quiet-inlet-26349.herokuapp.com/login'
+    },
+    {
+        projectName: 'This Portfolio',
+        image: portfolioPic,
+        description: 'A React powered website highlighting my coding skills.',
+        tech: ['React', 'React-Router', 'Javascript'],
+        github: 'https://github.com/powe0186/my-portfolio',
+        live: 'https://powe0186.github.io/my-portfolio/'
     },
 ]
 

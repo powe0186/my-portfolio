@@ -12,6 +12,8 @@ import {
 } from "react-router-dom";
 import { findByLabelText } from '@testing-library/react';
 
+
+
 // Background image for main part of page.
 const mainStyle = {
   backgroundImage: `url(${mainImage})`,
